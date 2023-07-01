@@ -5,17 +5,18 @@ class DemoButtons extends StatefulWidget {
 
   @override
   State<DemoButtons> createState() {
-    return _DemoButtonState();
+    return _DemoButtonsState();
   }
 }
 
-class _DemoButtonState extends State<DemoButtons> {
+class _DemoButtonsState extends State<DemoButtons> {
   var _isUnderstood = false;
 
   @override
   Widget build(BuildContext context) {
     print('DemoButtons BUILD called');
     return Column(
+      mainAxisSize: MainAxisSize.min,
       children: [
         Row(
           mainAxisAlignment: MainAxisAlignment.center,

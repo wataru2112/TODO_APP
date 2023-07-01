@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_internals/domo_buttons.dart';
+import './domo_buttons.dart';
 
 class UIUpdatesDemo extends StatelessWidget {
   const UIUpdatesDemo({super.key});
